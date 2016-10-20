@@ -127,7 +127,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "leeedenz@hotmail.com"
 
 ################
 # Author Blurb #
@@ -160,7 +160,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404_img: "/img/labtocat.png"
 
 ##################
 # GPG on Keybase #

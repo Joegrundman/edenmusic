@@ -41,7 +41,11 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-# background-img: "../img/wedding-beach-couple.jpg"
+
+####################
+# background images #
+####################
+
 background-img-intro: "https://s3.eu-central-1.amazonaws.com/neon-rambutan/wedding-beach-couple.jpg"
 
 ##############################

@@ -4,8 +4,8 @@
 			{{ page.content | markdownify }}
 			<div class="waterfall">
 				{% for item in site.data.gallery %}
-				<div class="portfolio-box">
-					<div class="image-box">
+				<div class="waterfall-box">
+					<div class="waterfall-image-box">
 							<img class="img-responsive" src="{{ item.url }}" alt="{{ item.alt }}" />
 					</div>
 					<div>

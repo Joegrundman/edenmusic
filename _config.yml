@@ -30,6 +30,7 @@ force-https: True
 
 lang: "en"
 author: "Lee Eden"
+title-plain: "Lee Eden"
 title: "<span>L</span>ee <span>E</span>den"
 description: "Awesome Bristol-based wedding DJ service."
 keywords: "Lee, Eden, Wedding, DJ"
@@ -171,8 +172,8 @@ social:
 ##################
 
 keybase-username: leeeden
-keybase-in-social: True
-keybase-in-footer: True
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 

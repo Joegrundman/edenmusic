@@ -1,11 +1,10 @@
 
 .page-header {
-    border-top: 1px solid grey;
-    padding-top: 30px;
-    border-bottom: 1px solid grey;
-
+    border-top: 2px solid $secondary-color;
+    border-bottom: 2px solid $secondary-color;
+    padding-top: 50px;
     p {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
@@ -27,4 +26,15 @@
     transform: scale(1.5);
   }
   
+}
+
+.halfpage {
+  font-size: 10px !important;
+}
+
+.halfpage-image {
+  margin-top: 50px;
+  &:hover {
+    color:  blue;
+  }
 }

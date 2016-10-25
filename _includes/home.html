@@ -2,6 +2,7 @@
 <!-- About Start -->
 
 <section id="{{ page.section-type }}" class="container content-section text-center">
+  {% include banner.html text="Home" %}
   <div class="row">
     <div class="col-md-6 col-md-offset-1 halfpage">
       {{ page.content | markdownify }}

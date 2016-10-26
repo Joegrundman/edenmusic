@@ -8,6 +8,18 @@
     }
 }
 
+.page-subheader {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 2px solid $secondary-color;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  span {
+    font-size: 20px;
+  }
+}
+
 .waterfall-image-box {
   margin: 10px;
 }
@@ -33,10 +45,8 @@
 }
 
 .halfpage-image {
-  margin-top: 50px;
-  &:hover {
-    color:  blue;
-  }
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .banner {

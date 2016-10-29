@@ -1,4 +1,9 @@
 
+.content-section {
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+}
+
 .page-header {
     border-top: 2px solid $secondary-color;
     border-bottom: 2px solid $secondary-color;
@@ -49,18 +54,24 @@
   margin-top: 40px;
 }
 
+.swirl {
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
 .banner {
   // background-color: slategray;
   background: #fff url('../img/wedding-rings.jpg');
   box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
   height: 80px;
-  width: 100%;
-  margin-bottom: 10px;
+  width: calc(100% - 40px);
+  margin: 0 0 10px 20px;
 }
 
 .banner h1 {
   color: #000;
   // color: $primary-color;
+  user-select: none;
   font-family: 'Pinyon Script', sans-serif;
   font-size: 46px;
   margin-left: 30px;

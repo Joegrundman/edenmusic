@@ -60,20 +60,21 @@
 }
 
 .banner {
-  // background-color: slategray;
-  background: #fff url('../img/wedding-rings.jpg');
+  user-select: none;
+  position: relative;
   box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
+  -webkit-box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
   height: 80px;
   width: calc(100% - 40px);
   margin: 0 0 10px 20px;
+  h1 {
+    position: absolute;
+    color: #000;
+    user-select: none;
+    font-family: 'Pinyon Script', sans-serif;
+    font-size: 46px;
+    top: 20px;
+    left: 30px;
+  }
 }
 
-.banner h1 {
-  color: #000;
-  // color: $primary-color;
-  user-select: none;
-  font-family: 'Pinyon Script', sans-serif;
-  font-size: 46px;
-  margin-left: 30px;
-  margin-top: 20px;
-}

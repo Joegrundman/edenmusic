@@ -65,8 +65,10 @@
   box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
   -webkit-box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
   height: 80px;
-  width: calc(100% - 40px);
-  margin: 0 0 10px 20px;
+  // width: calc(100% - 40px);
+  // margin: 0 0 10px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   h1 {
     position: absolute;
     color: #000;

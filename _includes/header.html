@@ -19,5 +19,8 @@
     </div>
   </div>
 </header>
-
+<script>
+  var headingDiv = document.querySelector('.brand-heading-h1');
+  headingDiv.innerHTML = headingDiv.textContent.replace(/\b([A-Z])(\w+?)\b/gm, "<span>$1</span>$2");
+</script>
 <!-- Intro End -->

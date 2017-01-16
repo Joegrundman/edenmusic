@@ -31,8 +31,9 @@ force-https: True
 lang: "en"
 author: "Lee Eden"
 title-plain: "Lee Eden"
-title: "<span>L</span>ee <span>E</span>den"
-description: "Awesome Bristol-based wedding DJ service."
+# title: "<span>E</span>den <span>W</span>edding & <span>E</span>vent DJ"
+title: "Eden Wedding & Event DJ"
+description: "Awesome Nottingham-based wedding and event DJ service."
 keywords: "Lee, Eden, Wedding, DJ"
 favicon: "/img/favicon.ico"
 
@@ -48,7 +49,7 @@ black-favicon: "/img/black-lab-glass.ico"
 ####################
 
 background-img-intro: "https://s3.eu-central-1.amazonaws.com/neon-rambutan/wedding-beach-couple.jpg"
-banner-img: "/img/wedding-rings-mod.jpg"
+banner-img: "/img/rings-small.png"
 ##############################
 # Dynamic Text on the Header #
 ##############################

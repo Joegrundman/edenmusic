@@ -12,9 +12,12 @@ body {
     color: $font-color;
     font-weight: bold;
     letter-spacing: 0.1em;
-    font-size: 6em;
+    font-size: 5em;
     font-family: 'Open Sans';
     margin: 10px 0;
+    span {
+        color: $intro-text-color-alt
+    }
 }
 .brand-heading-h3 {
     color: $font-color;

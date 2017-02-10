@@ -185,11 +185,10 @@ social:
 pages_list:
   Home: 'home'
   About: 'about'
+  Events: 'events'
   Services & Prices: 'services'
   FAQ: 'faq'
   Gallery: 'gallery'
-#  Blog: 'latest-post'
- # Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site

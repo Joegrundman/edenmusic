@@ -2,6 +2,7 @@
 .content-section {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
   padding-bottom: 20px;
+  background-color: $panel-color;
 }
 
 .page-header {
@@ -15,10 +16,14 @@
 
 .page-subheader {
   margin-top: 20px;
-  border-top: 1px solid #ddd;
-  border-bottom: 2px solid $secondary-color;
+  background-color: $banner-color;
+  // border-top: 1px solid $banner-color;
+  // border-bottom: 2px solid $secondary-color;
+    box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
+  -webkit-box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-left: 10px;
   margin-bottom: 20px;
   span {
     font-size: 20px;
@@ -62,6 +67,7 @@
 .banner {
   user-select: none;
   position: relative;
+  background-color: $banner-color;
   box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
   -webkit-box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
   height: 80px;
@@ -73,10 +79,14 @@
     position: absolute;
     color: #000;
     user-select: none;
-    font-family: 'Pinyon Script', sans-serif;
+    font-family: 'Della Respira','Sansita','Pinyon Script', sans-serif;
     font-size: 46px;
     top: 20px;
     left: 30px;
   }
+}
+
+.panel-default {
+  background-color: $banner-color;
 }
 

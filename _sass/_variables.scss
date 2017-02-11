@@ -1,13 +1,28 @@
 // Variables
+$deepOrange50: #fbe9e7;
+$deepOrange100: #ffccbc;
+$deepOrange200: #ffab91;
+$deepOrange300: #ff8a65;
 
+$orange50: #fff3e0;
+$orange100: #ffe0b2;
+$orange200: #ffcc80;
+$orange300: #ffb74d;
 
+$lightBlue50: #e1f5fe;
+
+$red50: #ffebee;
 
 $pink-hint: #fff6f4;
 $blue-hint: #f4f6ff;
 $secondary-default: #00cdff;
 // Main color
 
-$primary-color: white;
+$primary-color: $orange50;
+
+$panel-color: $orange100;
+
+$banner-color: $red50;
 
 // Anchor color
 $secondary-color: maroon;
@@ -27,3 +42,4 @@ $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 
 $social-buttons-color: $secondary-color;
+

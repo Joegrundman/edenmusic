@@ -9,6 +9,8 @@ $orange100: #ffe0b2;
 $orange200: #ffcc80;
 $orange300: #ffb74d;
 
+$grey50: #FAFAFA;
+$grey100: #F5F5F5;
 $lightBlue50: #e1f5fe;
 
 $red50: #ffebee;
@@ -18,11 +20,17 @@ $blue-hint: #f4f6ff;
 $secondary-default: #00cdff;
 // Main color
 
-$primary-color: $orange50;
+// $primary-color: $orange50;
 
-$panel-color: $orange100;
+// $panel-color: $orange100;
 
-$banner-color: $red50;
+// $banner-color: $red50;
+
+$primary-color: $grey100;
+
+$panel-color: white;
+
+$banner-color: white;
 
 // Anchor color
 $secondary-color: maroon;

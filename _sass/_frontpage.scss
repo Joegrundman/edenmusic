@@ -13,7 +13,7 @@ body {
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 5em;
-    font-family: 'Open Sans';
+    font-family: 'Dosis', sans-serif;
     margin: 10px 0;
     span {
         color: $intro-text-color-alt
@@ -22,5 +22,6 @@ body {
 .brand-heading-h3 {
     color: $font-color;
     padding-bottom: 20px;
+    font-family: 'Dosis', sans-serif;
     font-weight: thin;
 }

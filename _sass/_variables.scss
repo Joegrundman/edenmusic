@@ -55,13 +55,16 @@ $header-background-color: $primary-color;
 $intro-text-color: $font-color;
 $intro-text-color-alt: $font-color-alt;
 $navbar-color: $font-color;
+
 $navbar-lg-collapse-background-color: $header-background-color;
+
 $navbar-lg-background: rgba(255, 255, 255, 0.3);
 $navbar-lg-background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
 $navbar-lg-background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
 $navbar-lg-background: -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
 $navbar-lg-background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
 // $navbar-lg-background: transparent;
+
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 
 $social-buttons-color: $secondary-color;

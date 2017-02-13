@@ -133,12 +133,12 @@ a {
                 &:hover {
                     /* color: rgba($font-color, 0.8); */
                     outline: none;
-                    background-color: rgba($font-color, 0.3);
+                    background-color: rgba($font-color, 0.2);
                 }
                 &:focus,
                 &:active {
                     outline: none;
-                      background-color: rgba($font-color, 0.3);
+                      background-color: rgba($font-color, 0.2);
                 }
             }
             &.active {

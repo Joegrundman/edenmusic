@@ -39,6 +39,14 @@ $secondary-color: maroon;
 $font-color: #000;
 $font-color-alt: #ed3267;
 
+
+@mixin linear-gradient($direction, $color-stops...) {
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
+
+
 $navbar-text-shadow: true;
 $header-text-shadow: true;
 $header-background-color: $primary-color;
@@ -46,7 +54,8 @@ $intro-text-color: $font-color;
 $intro-text-color-alt: $font-color-alt;
 $navbar-color: $font-color;
 $navbar-lg-collapse-background-color: $header-background-color;
-$navbar-lg-background: transparent;
+$navbar-lg-background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+// $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 
 $social-buttons-color: $secondary-color;
